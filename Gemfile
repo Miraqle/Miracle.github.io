@@ -6,6 +6,9 @@ gem "jekyll-theme-chirpy", "~> 6.5"
 
 gem 'jekyll-compose', group: [:jekyll_plugins]
 
+# GitHub pages支持jekyll版本过低
+# gem "github-pages", "~> 231", group: :jekyll_plugins
+
 group :test do
   gem "html-proofer", "~> 4.4"
 end
