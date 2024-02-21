@@ -25,6 +25,8 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: false
+  
+remote_theme: jekyll-theme-chirpy
 
 jobs:
   # Build job
